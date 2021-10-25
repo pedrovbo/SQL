@@ -44,3 +44,8 @@ EXCEPT
 SELECT NOME,
     CPF
 FROM CLIENTE;
+/*ALIAS*/
+SELECT CODIGOALUNO AS "Matrícula",
+    NOME AS "Nome do discente",
+    DTNASCIMENTO AS "Data de nascimento"
+FROM ALUNO;
