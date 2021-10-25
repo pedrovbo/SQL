@@ -1,0 +1,14 @@
+INSERT INTO NIVEL (CODIGONIVEL, DESCRICAO)
+VALUES (1, 'Graduação');
+INSERT INTO NIVEL (CODIGONIVEL, DESCRICAO)
+VALUES (2, 'Especialização');
+INSERT INTO NIVEL (CODIGONIVEL, DESCRICAO)
+VALUES (3, 'Mestrado');
+INSERT INTO NIVEL (CODIGONIVEL, DESCRICAO)
+VALUES (4, 'Doutorado');
+/*or*/
+INSERT INTO NIVEL (CODIGONIVEL, DESCRICAO)
+VALUES (1, 'Graduação'),
+    (2, 'Especialização'),
+    (3, 'Mestrado'),
+    (4, 'Doutorado');
